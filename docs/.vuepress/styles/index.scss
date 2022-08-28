@@ -3,3 +3,17 @@
         font-family: '宋体', 'cursive' !important;
     }
 }
+
+.theme-mix-content {
+    table {
+        font-size: 14px;
+    }
+}
+
+// @media (min-width: 1200px) {
+//     .page .toc-wrap {
+//         max-width: 20rem;
+//     }
+// }
+
+// @use '../theme-mix/client/styles/index.scss';
