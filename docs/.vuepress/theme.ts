@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     title: '清华西游记',
     navbar: [
         {
@@ -20,8 +20,7 @@ export default {
             text: '游戏系统',
             children: [
                 '/mission/', // 任务系统
-                '/qujing/', // 取经之路
-                '/danaotiangong/', // 大闹天宫
+                '/dlc/', // 剧情故事
                 '/features/', // 站点特色
             ],
         },
@@ -30,8 +29,13 @@ export default {
             link: '/experience/',
         },
         {
+            text: '我要完善百科',
+            link: '/system/contribute/',
+        },
+        {
             text: '其他',
             children: [
+                '/system/tools/',
                 '/system/changelog/',
                 // {
                 //     text: '更新日志',
@@ -76,6 +80,7 @@ export default {
                     'lijing',
                     'rulai',
                     'city-defense',
+                    'puzzles',
                 ],
             },
         ],
@@ -99,19 +104,25 @@ export default {
                 link: '',
                 children: [
                     'fabao',
+                    'neidan',
+                    'pet',
+                    'zhuangshi',
                 ],
             },
         ],
-        // '/qujing/': [
-        //     {
-        //         type: 'link-group',
-        //         text: '取经之路',
-        //         link: '',
-        //         children: [
-        //             'fabao',
-        //         ],
-        //     },
-        // ],
+        '/dlc/': [
+            {
+                type: 'link-group',
+                text: '剧情故事',
+                link: '',
+                children: [
+                    '18hell', // 十八层地狱
+                    'qujing', // 取经之路
+                    'danaotiangong', // 大闹天宫
+                    'tianjie', // 天劫
+                ],
+            },
+        ],
         '/experience/': [
             {
                 type: 'link-group',

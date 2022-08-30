@@ -10,7 +10,7 @@ const theme = require('./theme')
 
 // const __dirname = getDirname(import.meta.url)
 
-export default {
+module.exports = {
     base: '/',
     lang: 'zh-CN',
     title: '清华西游记',
