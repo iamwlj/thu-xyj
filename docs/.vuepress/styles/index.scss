@@ -10,6 +10,15 @@
     }
 }
 
+.theme-mix-content h1 a.header-anchor,
+.theme-mix-content h2 a.header-anchor,
+.theme-mix-content h3 a.header-anchor,
+.theme-mix-content h4 a.header-anchor,
+.theme-mix-content h5 a.header-anchor,
+.theme-mix-content h6 a.header-anchor {
+    display: inline;
+}
+
 // @media (min-width: 1200px) {
 //     .page .toc-wrap {
 //         max-width: 20rem;

@@ -3,6 +3,7 @@ const { mixTheme } = require('vuepress-theme-mix')
 // import { getDirname, path } from '@vuepress/utils'
 // import { defaultTheme } from '@vuepress/theme-default'
 const path = require('path')
+const { mudPlugin } = require('./plugins/plugin-mud')
 
 // import { registerComponentsPlugin  } from '@vuepress/plugin-register-components'
 const { registerComponentsPlugin  } = require('@vuepress/plugin-register-components')
@@ -20,6 +21,7 @@ module.exports = {
     plugins: [
         registerComponentsPlugin({
             componentsDir: path.resolve(__dirname, './components')
-        })
+        }),
+        // mudPlugin(),
     ]
 }

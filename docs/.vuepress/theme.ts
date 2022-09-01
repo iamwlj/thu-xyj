@@ -106,7 +106,7 @@ module.exports = {
                     'fabao',
                     'neidan',
                     'pet',
-                    'zhuangshi',
+                    'zhuanshi',
                 ],
             },
         ],
