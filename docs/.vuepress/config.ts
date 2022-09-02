@@ -18,6 +18,8 @@ module.exports = {
     description: '一款内容丰富的 mud 游戏，这里是它的小百科',
     theme: mixTheme(theme),
     // layouts: path.resolve(__dirname, './theme-mix/client/layouts'),
+    templateDev: path.resolve(__dirname, './templates/dev.html'),
+    templateBuild: path.resolve(__dirname, './templates/build.html'),
     plugins: [
         registerComponentsPlugin({
             componentsDir: path.resolve(__dirname, './components')
