@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as r,b as e,d as s}from"./app.d518e165.js";const c={},n=e("h1",{id:"\u5927\u96EA\u5C71",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#\u5927\u96EA\u5C71","aria-hidden":"true"},"#"),s(" \u5927\u96EA\u5C71")],-1),o=[n];function _(d,h){return t(),r("div",null,o)}var l=a(c,[["render",_],["__file","xueshan.html.vue"]]);export{l as default};

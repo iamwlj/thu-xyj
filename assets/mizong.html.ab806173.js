@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as o,b as e,d as r}from"./app.d518e165.js";const c={},n=e("h1",{id:"\u5BC6\u5B97",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#\u5BC6\u5B97","aria-hidden":"true"},"#"),r(" \u5BC6\u5B97")],-1),s=[n];function _(d,i){return t(),o("div",null,s)}var l=a(c,[["render",_],["__file","mizong.html.vue"]]);export{l as default};
