@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "gh-pages": "npm run docs:build && node gh-pages",
+    "gh": "node gh-pages"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@vuepress/plugin-register-components": "2.0.0-beta.49",
+    "gh-pages": "^4.0.0",
     "vuepress": "2.0.0-beta.49",
     "vuepress-theme-mix": "^1.4.1"
   }

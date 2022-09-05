@@ -1,5 +1,11 @@
 module.exports = {
     title: '清华西游记',
+    // docsRepo: 'https://gitee.com/wellfrog16/thu-xyj',
+    // docsBranch: 'master',
+    // docsDir: 'docs',
+    // editLink: true,
+    // lastUpdated: true,
+    contributors: true,
     navbar: [
         {
             text: '首页',
