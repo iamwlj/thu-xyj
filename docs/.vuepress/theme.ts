@@ -4,7 +4,9 @@ module.exports = {
     docsBranch: 'master',
     docsDir: 'docs',
     editLink: true,
+    editLinkText: '编辑此页面',
     lastUpdated: true,
+    lastUpdatedText: '最后更新时间',
     contributors: true,
     navbar: [
         {
@@ -42,7 +44,8 @@ module.exports = {
             text: '其他',
             children: [
                 '/system/tools/',
-                '/system/changelog/',
+                '/system/game-log/',
+                '/system/site-log/',
                 // {
                 //     text: '更新日志',
                 //     link: 'https://github.com/gavinliu6/vuepress-theme-mix/blob/main/CHANGELOG.md',
@@ -87,6 +90,7 @@ module.exports = {
                     'rulai',
                     'city-defense',
                     'puzzles',
+                    'other',
                 ],
             },
         ],

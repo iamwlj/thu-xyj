@@ -1,19 +1,20 @@
 const { mixTheme } = require('vuepress-theme-mix')
-// import { mixTheme  }  from './theme-mix/node'
 // import { getDirname, path } from '@vuepress/utils'
 // import { defaultTheme } from '@vuepress/theme-default'
 const path = require('path')
-const { mudPlugin } = require('./plugins/plugin-mud')
+// const { mudPlugin } = require('./plugins/plugin-mud')
 
-// import { registerComponentsPlugin  } from '@vuepress/plugin-register-components'
 const { registerComponentsPlugin  } = require('@vuepress/plugin-register-components')
 const theme = require('./theme')
 
 // const __dirname = getDirname(import.meta.url)
 
+// - https://docs.layer0.co/guides/vuepress
+// - https://app.layer0.co/
+
 module.exports = {
-    base: '/',
-    // base: '/thu-xyj/',
+    base: '/', // layer0
+    // base: '/thu-xyj/', // github
     lang: 'zh-CN',
     title: '清华西游记',
     description: '一款内容丰富的 mud 游戏，这里是它的小百科',
