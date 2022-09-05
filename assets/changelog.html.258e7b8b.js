@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1f43ca4c","path":"/system/changelog.html","title":"\u66F4\u65B0\u65E5\u5FD7","lang":"zh-CN","frontmatter":{"title":"\u66F4\u65B0\u65E5\u5FD7"},"excerpt":"","headers":[],"git":{"updatedTime":1661620559000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":1}]},"filePathRelative":"system/changelog.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-15637228","path":"/dlc/18hell.html","title":"\u5341\u516B\u5C42\u5730\u72F1","lang":"zh-CN","frontmatter":{"title":"\u5341\u516B\u5C42\u5730\u72F1"},"excerpt":"","headers":[],"git":{"updatedTime":1661885626000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":1}]},"filePathRelative":"dlc/18hell.md"}');export{e as data};

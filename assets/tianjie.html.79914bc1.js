@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e2381abc","path":"/dlc/tianjie.html","title":"\u5929\u52AB","lang":"zh-CN","frontmatter":{"title":"\u5929\u52AB"},"excerpt":"","headers":[],"git":{"updatedTime":1661885626000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":1}]},"filePathRelative":"dlc/tianjie.md"}');export{e as data};

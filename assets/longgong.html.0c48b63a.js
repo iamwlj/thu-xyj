@@ -1,0 +1,1 @@
+import{_ as a,o,c as t,b as e,d as n}from"./app.d518e165.js";const r={},c=e("h1",{id:"\u4E1C\u6D77\u9F99\u5BAB",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#\u4E1C\u6D77\u9F99\u5BAB","aria-hidden":"true"},"#"),n(" \u4E1C\u6D77\u9F99\u5BAB")],-1),s=[c];function _(d,l){return o(),t("div",null,s)}var h=a(r,[["render",_],["__file","longgong.html.vue"]]);export{h as default};
