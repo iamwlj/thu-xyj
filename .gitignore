@@ -21,4 +21,5 @@ yarn-error.log*
 #
 .temp
 .cache
-theme-mix
+theme-mix# Layer0 generated build directory
+.layer0

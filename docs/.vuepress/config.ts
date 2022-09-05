@@ -13,6 +13,7 @@ const theme = require('./theme')
 
 module.exports = {
     base: '/',
+    // base: '/thu-xyj/',
     lang: 'zh-CN',
     title: '清华西游记',
     description: '一款内容丰富的 mud 游戏，这里是它的小百科',
