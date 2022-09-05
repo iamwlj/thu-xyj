@@ -52,6 +52,10 @@ module.exports = {
                 // },
             ],
         },
+        {
+            text: 'Gitee',
+            link: 'https://gitee.com/wellfrog16/thu-xyj',
+        },
     ],
     sidebar: {
         '/guild/': [
