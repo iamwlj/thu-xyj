@@ -19,6 +19,16 @@
     display: inline;
 }
 
+.list-enter-active,
+.list-leave-active {
+    transition: all 0.5s cubic-bezier(.86,.13,.45,3);
+}
+.list-enter-from,
+.list-leave-to {
+    transform: scale(0.5) rotate(30deg);
+    opacity: 0;
+}
+
 // @media (min-width: 1200px) {
 //     .page .toc-wrap {
 //         max-width: 20rem;

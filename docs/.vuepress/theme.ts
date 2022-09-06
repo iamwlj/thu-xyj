@@ -38,14 +38,17 @@ module.exports = {
         },
         {
             text: '我要完善百科',
-            link: '/system/contribute/',
+            link: '/contribute/help',
         },
         {
             text: '其他',
             children: [
                 '/system/tools/',
-                '/system/game-log/',
-                '/system/site-log/',
+                {
+                    text: '更新日志',
+                    link: '/log/game/',
+                },
+                '/contribute/md/'
                 // {
                 //     text: '更新日志',
                 //     link: 'https://github.com/gavinliu6/vuepress-theme-mix/blob/main/CHANGELOG.md',
@@ -148,5 +151,13 @@ module.exports = {
                 ],
             },
         ],
+        '/log/': [
+            'game',
+            'site',
+        ],
+        '/contribute/': [
+            'help',
+            'md',
+        ]
     },
 }
