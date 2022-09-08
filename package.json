@@ -10,7 +10,8 @@
     "gh-deploy": "node deploy/gh-pages",
     "gh-site": "node deploy/site",
     "gh-clean": "node node_modules\\gh-pages\\bin\\gh-pages-clean.js",
-    "layer0-build": "npm run docs:build & 0 deploy"
+    "layer0-build": "npm run docs:build & 0 deploy",
+    "layer0-deploy": "0 deploy"
   },
   "author": "",
   "license": "ISC",

@@ -21,9 +21,3 @@ footer: MIT Licensed | Copyright © 2021-present wellfrog
 
 
 ### 感谢以下参与百科贡献的人员：
-
-xxx，yyy
-
-如果你也想参与贡献，可以查看这里
-
-最后，你就可以按照文档所述进行内容创作了。:beers:

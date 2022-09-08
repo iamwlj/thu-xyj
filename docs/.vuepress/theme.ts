@@ -1,7 +1,7 @@
 module.exports = {
     title: '清华西游记',
     docsRepo: 'https://gitee.com/wellfrog16/thu-xyj',
-    docsBranch: 'master',
+    docsBranch: 'dev',
     docsDir: 'docs',
     editLink: true,
     editLinkText: '编辑此页面',
