@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-42089a00","path":"/features/zhuanshi.html","title":"\u8F6C\u4E16\u7CFB\u7EDF","lang":"zh-CN","frontmatter":{"title":"\u8F6C\u4E16\u7CFB\u7EDF"},"excerpt":"","headers":[],"git":{"updatedTime":1662663907000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":2}]},"filePathRelative":"features/zhuanshi.md"}');export{e as data};

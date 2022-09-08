@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7f58fa9a","path":"/items/equipment.html","title":"\u6B66\u5668\u88C5\u5907","lang":"zh-CN","frontmatter":{"title":"\u6B66\u5668\u88C5\u5907"},"excerpt":"","headers":[],"git":{"updatedTime":1662663907000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":2}]},"filePathRelative":"items/equipment.md"}');export{e as data};

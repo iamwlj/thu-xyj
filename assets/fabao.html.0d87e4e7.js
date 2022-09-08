@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0251d406","path":"/features/fabao.html","title":"\u6CD5\u5B9D\u7CFB\u7EDF","lang":"zh-CN","frontmatter":{"title":"\u6CD5\u5B9D\u7CFB\u7EDF"},"excerpt":"","headers":[],"git":{"updatedTime":1662663907000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":2}]},"filePathRelative":"features/fabao.md"}');export{e as data};

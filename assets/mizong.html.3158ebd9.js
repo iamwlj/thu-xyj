@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-d179844c","path":"/guild/mizong.html","title":"\u5BC6\u5B97","lang":"zh-CN","frontmatter":{"title":"\u5BC6\u5B97"},"excerpt":"","headers":[],"git":{"updatedTime":1662663907000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":2}]},"filePathRelative":"guild/mizong.md"}');export{t as data};

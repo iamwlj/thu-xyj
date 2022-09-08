@@ -1,1 +1,0 @@
-import{_ as a,o,c as t,d as e,e as r}from"./app.169a39f1.js";const c={},s=e("h1",{id:"\u7F8E\u5473\u4F73\u80B4",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#\u7F8E\u5473\u4F73\u80B4","aria-hidden":"true"},"#"),r(" \u7F8E\u5473\u4F73\u80B4")],-1),d=[s];function _(n,i){return o(),t("div",null,d)}var h=a(c,[["render",_],["__file","food.html.vue"]]);export{h as default};

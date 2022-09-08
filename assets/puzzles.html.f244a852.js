@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-269e0a20","path":"/mission/puzzles.html","title":"\u5F00\u5C01\u89E3\u8C1C","lang":"zh-CN","frontmatter":{"title":"\u5F00\u5C01\u89E3\u8C1C"},"excerpt":"","headers":[],"git":{"updatedTime":1662663907000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":2}]},"filePathRelative":"mission/puzzles.md"}');export{e as data};
