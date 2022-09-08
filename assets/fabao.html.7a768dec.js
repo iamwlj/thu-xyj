@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as o,d as e,e as r}from"./app.169a39f1.js";const c={},s=e("h1",{id:"\u6CD5\u5B9D\u7CFB\u7EDF",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#\u6CD5\u5B9D\u7CFB\u7EDF","aria-hidden":"true"},"#"),r(" \u6CD5\u5B9D\u7CFB\u7EDF")],-1),_=[s];function n(d,i){return t(),o("div",null,_)}var h=a(c,[["render",n],["__file","fabao.html.vue"]]);export{h as default};
