@@ -45,8 +45,11 @@
         }
 
         pre {
-            margin: 0;
             padding: 2.2rem 1rem 1rem;
+            margin: 0;
+            vertical-align: middle;
+            border-radius: 0.25rem;
+            overflow: auto;
         }
 
         &::before {
