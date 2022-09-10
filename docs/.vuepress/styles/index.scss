@@ -1,16 +1,69 @@
 .shiki {
     code {
-        font-family: '宋体', 'cursive' !important;
+        font-family: '宋体' !important;
     }
 }
 
 .theme-mix-content {
+    code {
+        font-family: '宋体' !important;
+        padding: 0;
+    }
+
     table {
         font-size: 14px;
     }
 
     figcaption {
         display: none;
+    }
+
+    div[class*=language-].ext-mud {
+        &::before {
+            content: "thu-mud";
+            color: #6a6c6d;
+        }
+    
+        &::after {
+            width: 15px;
+            background-image: url('/imgs/zmud-logo2.png');
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            box-shadow: none;
+            background-color:unset;
+            border-radius: 0;
+            transform: scale(1.5);
+        }
+    }
+    
+    div[class*=language-].ext-content {
+        background-color: var(--deep-bg-color);
+
+        code {
+            background-color: unset;
+            line-height: 1.5;
+        }
+
+        pre {
+            margin: 0;
+            padding: 2.2rem 1rem 1rem;
+        }
+
+        &::before {
+            content: "thu-content";
+            color: #6a6c6d;
+        }
+    
+        &::after {
+            width: 20px;
+            background-image: url('/imgs/zmud-logo.png');
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            box-shadow: none;
+            background-color: unset;
+            border-radius: 0;
+            transform: scale(1.5);
+        }
     }
 }
 

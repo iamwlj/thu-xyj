@@ -2,7 +2,7 @@ const { mixTheme } = require('vuepress-theme-mix')
 // import { getDirname, path } from '@vuepress/utils'
 // import { defaultTheme } from '@vuepress/theme-default'
 const path = require('path')
-// const { mudPlugin } = require('./plugins/plugin-mud')
+const { mudPlugin } = require('./plugins/plugin-mud')
 
 const { registerComponentsPlugin  } = require('@vuepress/plugin-register-components')
 const theme = require('./theme')
@@ -22,10 +22,15 @@ module.exports = {
     // layouts: path.resolve(__dirname, './theme-mix/client/layouts'),
     templateDev: path.resolve(__dirname, './templates/dev.html'),
     templateBuild: path.resolve(__dirname, './templates/build.html'),
+    markdown: {
+        code: {
+            lineNumbers: false,
+        }
+    },
     plugins: [
         registerComponentsPlugin({
             componentsDir: path.resolve(__dirname, './components')
         }),
-        // mudPlugin(),
+        mudPlugin(),
     ]
 }
