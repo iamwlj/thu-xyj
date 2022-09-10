@@ -12,9 +12,14 @@ const theme = require('./theme')
 // - https://docs.layer0.co/guides/vuepress
 // - https://app.layer0.co/
 
+const getBase = () => {
+    const deploy = process?.env?.deploy
+    if (deploy === 'gh') return '/thu-xyj/' // github
+    return '/'  // default, layer0
+}
+
 module.exports = {
-    base: '/', // layer0
-    // base: '/thu-xyj/', // github
+    base: getBase(),
     lang: 'zh-CN',
     title: '清华西游记',
     description: '一款内容丰富的 mud 游戏，这里是它的小百科',
