@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-fffb8e28","path":"/guide/","title":"\u65B0\u624B\u6307\u5357","lang":"zh-CN","frontmatter":{"title":"\u65B0\u624B\u6307\u5357"},"excerpt":"","headers":[],"git":{"updatedTime":1662814056000,"contributors":[{"name":"wellfrog","email":"wellfrog16@gmail.com","commits":4}]},"filePathRelative":"guide/index.md"}');export{e as data};
