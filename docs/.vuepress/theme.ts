@@ -38,7 +38,7 @@ module.exports = {
         },
         {
             text: '我要完善百科',
-            link: '/contribute/help',
+            link: '/contribute/help/',
         },
         {
             text: '其他',
