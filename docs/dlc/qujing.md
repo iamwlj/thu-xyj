@@ -11,7 +11,7 @@ title: 取经之路
 - 三次起死回生的机会
 
 ## 1. 宝象国／碗子山
-```html
+```mud
 fly baoxiang;#6 s;n;sw;#3 w;nw
 河面上的船慢慢聚在一起。
 look
@@ -39,7 +39,7 @@ s;se;#3 e;ne;s;#7 su
 ```
 
 ## 2. 平顶山／莲花洞／压龙山／压龙洞
-```html
+```mud
 fly yalong;se;wu;sw;sw;se;s;sw;e;#2 {kill xiao yao %i}
 kill lao nainai
 老奶奶翻倒在地现了真身，是一只狐狸精。
@@ -56,7 +56,7 @@ kill yinjiao dawang
 【闲聊】太上老君(Taishang laojun)：但愿人长久顺利闯过西行又一关！
 ```
 ## 3. 乌鸡国／宝林寺
-```html
+```mud
 fly changan;s;w;buy axe
 你向周铁匠买下一把铁斧。
 e;fly wuji;#5 e;eu;se;eu;n;enter;n;w;sleep
@@ -104,7 +104,7 @@ kill guo wang 2
 ```
 
 ## 4. 车迟国／三清观
-```html
+```mud
 fly chechi;#5 s;#4 w;#2 n;#5 w;e;#4 s;#3 n;w;#3 s;#3 e;#3 nu;n
 三清殿
 bian taishang laojun;lift laojun;s;open door;e;throw laojun
@@ -154,7 +154,7 @@ exert recover;exert refresh;enter youguo
 ```
 
 ## 5. 通天河／陈家庄
-```html
+```mud
 fly tongtian;#5 s;#2 n;e;ne;e;se;bian kid;out;w;sw;w;n;w
 kill jinlin guai，等金鳞怪逃跑后，up,cast tudi, ask tudi about 金鳞怪,
 e;e;#5 s;#3 n;ask kid about 金鳞怪
@@ -171,7 +171,7 @@ s;e;ne;e;se;bian kid;out;w;sw;w;n;w;
 ```
 
 ## 6. 金兜山／金兜洞
-```html
+```mud
 fly jindou;sw;n;#2 nw;n;bian yao guai;s;se;sw;bian;s;sw;w;dig sha
 拿到jin dan sha后,throw sha on dawang;
 打中之后 kill dujiaosi dawang
@@ -185,7 +185,7 @@ fly jindou;sw;n;#2 nw;n;bian yao guai;s;se;sw;bian;s;sw;w;dig sha
 ```
 
 ## 7. 女儿国／解阳山
-```html
+```mud
 男id ask princess about 结婚
 女id ask princess about 伴娘
 answer 愿意
@@ -197,7 +197,7 @@ wear icedew
 ```
 
 ## 8. 毒敌山／琵琶洞
-```html
+```mud
 fly tongtian;#5 s;#2 n;e;ne;e;n;e;ne;bian gong ji;out
 你手捻口诀，念动真言，摇身一变，变得和公鸡一模一样！
 fly dudi;nw;#2 ne;sw;se;enter;wield all
@@ -217,7 +217,7 @@ break;se;s;kill xiezi jing
 ```
 
 ## 9. 火焰山／翠云山
-```html
+```mud
 fly firemount;cast tudi;ask tudi about 芭蕉骨
 找到芭蕉骨就给铁扇公主
 fly firemount;wu;su;wu;su;#2 e;get stone;hit door
@@ -244,7 +244,7 @@ shan
 ```
 
 ## 10. 积雷山／摩云洞
-```html
+```mud
 fly firemount;wu;su;wu;su;#2 e;get stone;hit door
 一阵红云降临，云里雾在云里出现。
 ask cloud fog about princess
@@ -270,7 +270,7 @@ kill niumo wang
 ```
 
 ## 11. 祭赛国／碧波潭
-```html
+```mud
 fly jisaiguo;#4 n;w;s;buy broom from huoji;n;e;#4 s;#2 w;open door;#3 n;nu;ask kusu chanshi about 扫塔
 苦宿禅师掏出把钥匙，将门上的铜锁打开。
 enter;#12 {u;shao 塔}
@@ -330,7 +330,7 @@ get tooth from xiazi
 ```
 
 ## 12. 荆棘岭／木仙庵
-```html
+```mud
 fly jingjiling;#9 push jingji;exert recover
 荆棘被推到两旁，闪出一条道路。
 wu;sw;w;nw;wu;nw;wu;s;#9 push jingji;exert recover
@@ -369,7 +369,7 @@ fight guzhi gong
 ```
 
 ## 13. 荆棘岭／木仙庵
-```html
+```mud
 fly jingjiling;#9 push jingji;exert recover
 荆棘被推到两旁，闪出一条道路。
 wu;sw;w;nw;wu;nw;wu;s;#9 push jingji;exert recover
@@ -408,7 +408,7 @@ fight guzhi gong
 ```
 
 ## 14. 小西天／小雷音寺
-```html
+```mud
 fly xiaoxitian;s;e;kill huangmei laofo
 别杀死，进金钵后不停的out，出来了后cast tudi;ask tudi about 黄眉老佛;fly lingshan， 找到mile foz
 u，ask fozu about 黄眉老佛;ask fozu about 真诀, nick （佛祖告诉你的那个字），再去把老佛干掉。
@@ -420,7 +420,7 @@ u，ask fozu about 黄眉老佛;ask fozu about 真诀, nick （佛祖告诉你�
 ```
 
 ## 15. 朱紫国／麒麟山／獬豸洞
-```html
+```mud
 fly zhuzi;#8 n;#6 s;jiebang 
 你仔细地将榜揭下来。
 #5 s;#2 e;ask guo wang about 不适（病、医、医治、医疗、药、吃药）
@@ -457,7 +457,7 @@ nw;ne
 ```
 
 ## 16. 盘丝岭／盘丝洞／黄花观／紫云山
-```html
+```mud
 fly zhuzi;#8 n;#2 w;#2 nw;sw;w;wu;se;#2 w;kill yu xiang
 玉香浑身一软，攒着头现了蜘蛛精的原形。
 nw;w;kill liu mei
@@ -495,7 +495,7 @@ kill huanghua wugong
 ```
 
 ## 17. 比丘国／清华庄／清华洞
-```html
+```mud
 fly wudidong;ne;nu;ed;se;#4 e;open e long;n;open e long;w;ne;#2 e;se;s;sw;se;w;
 zuochan
 你坐禅完毕，起身。
@@ -532,7 +532,7 @@ kill guo zhang
 ```
 
 # 18. 无底洞／黑松林
-```html
+```mud
 fly wudidong;wu;sd;sw;w;s;s;enforce 100;push statue
 你纵身一跃，跳了进去，大洞随即又合上了。
 enforce none;sw;su;su;wu;dive dong
@@ -566,7 +566,7 @@ ask yuan qing about rescue
 
 
 ## 19. 钦法国
-```html
+```mud
 找一本〖金刚经〗。
 fly wudidong;wu;sd;sw;#12 w;n;kill qian guafu
 钱寡妇死了。
@@ -626,7 +626,7 @@ ask guo wang about buddhism（monk、佛、佛教、和尚、拜佛、入佛、�
 ```
 
 ## 20. 隐雾山／连环洞
-```html
+```mud
 fly yinwu;#4 nw
 山妖呲牙咧嘴地死活不让你过！
 busy它,然后nw;nu;w;sw;sd;climb up
@@ -659,7 +659,7 @@ kill yao wang
 ```
 
 ## 21. 凤仙郡
-```html
+```mud
 这关先要ask junzhu about 祈雨，然后
 fly yinwu;sw;#4 w;#2 sw;s;w;#2 s;ketou
 你缓缓起身。
@@ -684,7 +684,7 @@ e;#2 n;give 200 gold to cibei heshangs;#3 e;#2 s;sw;se
 ```
 
 ## 22. 玉华县／豹头山／虎口洞／竹节山／九曲盘桓洞
-```html
+```mud
 fly baotou;se;#2 ed;nw;nu;#3 nw;#2 nu;bian diaozuan guguai
 你手捻口诀，念动真言，摇身一变，变得和刁钻古怪一模一样！
 #2 sd;#2 wu;nw;ask guguai diaozuan about dong（虎口洞）
@@ -722,7 +722,7 @@ e;give xiao xiangyao zhang to xiao wangzi
 
 
 ## 23. 金平府／青龙山／玄英洞
-```html
+```mud
 先在jinping kill npc拿到灯笼(deng)，然后look deng，如果动物数字是对的，就是好灯。
 然后，fly jinping;#2 s;#3 e;#2 w;s;#4 buy hulu from zhu;n;#2 e;#3 n;fill hulu;s;e;fill hulu;w;s;e;fill hulu;w;s;w;n;fill hulu;s;#2 w;#3 n;#4 pour gang
 灯官告诉你：佛爷要来了！
@@ -750,7 +750,7 @@ w;s;sw
 ```
 
 ## 24. 天竺国／毛颖山／三连穴
-```html
+```mud
 fly tianzhu;#7 w;#4 s;#3 e
 彩楼上有人高喊：公主拈香完毕，正祝告天地。
 彩楼上有人又高喊：公主临窗，伺女备球！
@@ -784,7 +784,7 @@ se
 ```
 
 ## 结束
-```html
+```mud
 过完了,去灵山找迦叶尊者
 ask jiaye about qujing
 迦叶尊者告诉你：你西行求取真经已历尽了所有的难关。 
@@ -799,7 +799,7 @@ ask rulai fo about obstacles
 【闲聊】如来佛(Rulai fo)：*西天取经功德无量，奖励*级技能！
 如来佛说道：日后若有不测，可来大雄宝殿起死回生三次。
 
-奖励: potential,数量多少每个都不同
+奖励: 潜能数量多少每个都不同
 skills全部加一级
 三次起死回生的机会
 
